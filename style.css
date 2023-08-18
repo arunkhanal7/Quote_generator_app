@@ -13,6 +13,14 @@ margin-bottom: 5rem;
 margin-top: 2rem;
 font-weight: 900;
 }
+.dark{
+ background-color: #222;
+ color: #e6e6e6;
+    .quote{
+        background-color: #222;
+        color: #e6e6e6;
+     }
+ }
 .quote{
     margin: auto;
     height: 20rem;
@@ -43,6 +51,10 @@ font-weight: 900;
 .btn:hover{
     background-color: bisque;
 }
+#switch{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
 .control{
     display: flex;
     justify-content:space-evenly;
@@ -52,4 +64,22 @@ font-weight: 900;
     display: flex;
     justify-content: space-evenly;
 }
+
+
+@media screen and (max-width: 600px) {
+    .quote {
+        padding: 0.5;
+      width: 20rem;
+      text-overflow: ellipsis;
+      
+    }
+  
+    .btn {
+      font-size: 14px;
+    }
+  
+    #switch {
+      margin-left: 7rem;
+    }
+  }
 
