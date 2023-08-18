@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:floralwhite;
+}
+.header{
+font-size:35px;
+display: flex;
+justify-content: center;
+margin-bottom: 5rem;
+margin-top: 2rem;
+font-weight: 900;
+}
+.quote{
+    margin: auto;
+    height: 20rem;
+    width: 90rem;
+    background-color: aliceblue;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+    height: 35px;
+    line-height: 1.15;
+    overflow: hidden;
+    padding: 2px 25px;
+    margin-left: 5px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+.btn:hover{
+    background-color: bisque;
+}
+.control{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
