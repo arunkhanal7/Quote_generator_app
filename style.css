@@ -68,9 +68,11 @@ font-weight: 900;
 
 @media screen and (max-width: 600px) {
     .quote {
-        padding: 0.5;
-      width: 20rem;
+
+      padding-left: 10px;
+      width: 100%;
       text-overflow: ellipsis;
+      margin: 0;
       
     }
   
@@ -79,7 +81,11 @@ font-weight: 900;
     }
   
     #switch {
-      margin-left: 7rem;
+      margin-left: 16rem;
     }
+    .header{
+        margin-top: 4rem;
+        
+        }
   }
 
